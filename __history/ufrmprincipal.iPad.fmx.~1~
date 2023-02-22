@@ -1,0 +1,9 @@
+inherited Form1_iPad: TForm1_iPad
+  ClientHeight = 1004
+  ClientWidth = 768
+  DesignerMasterStyle = 2
+  inherited StringGrid1: TStringGrid
+    Viewport.Width = 521.000000000000000000
+    Viewport.Height = 100.000000000000000000
+  end
+end

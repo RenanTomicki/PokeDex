@@ -1,0 +1,27 @@
+inherited Form1_iPhone55in: TForm1_iPhone55in
+  ClientHeight = 716
+  ClientWidth = 414
+  DesignerMasterStyle = 2
+  inherited Memo1: TMemo [0]
+    Viewport.Width = 81.000000000000000000
+    Viewport.Height = 65.000000000000000000
+  end
+  inherited Button1: TButton [1]
+  end
+  inherited Edit1: TEdit [2]
+  end
+  inherited Label1: TLabel [3]
+  end
+  inherited Label2: TLabel [4]
+  end
+  inherited Label3: TLabel [5]
+  end
+  inherited Label4: TLabel [6]
+  end
+  inherited Label5: TLabel [7]
+  end
+  inherited Label6: TLabel [8]
+  end
+  inherited Panel1: TPanel [9]
+  end
+end

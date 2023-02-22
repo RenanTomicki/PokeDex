@@ -1,0 +1,9 @@
+inherited Form1_iPad: TForm1_iPad
+  ClientHeight = 1004
+  ClientWidth = 768
+  DesignerMasterStyle = 2
+  inherited Memo1: TMemo
+    Viewport.Width = 81.000000000000000000
+    Viewport.Height = 65.000000000000000000
+  end
+end

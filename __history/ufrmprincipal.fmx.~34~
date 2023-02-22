@@ -1,0 +1,269 @@
+object Form1: TForm1
+  Left = 540
+  Top = 67
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = Single
+  Caption = 'POKEDEX - POKEMON DATABASE'
+  ClientHeight = 625
+  ClientWidth = 393
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  Left = 540
+  Top = 67
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Client
+    Size.Width = 393.000000000000000000
+    Size.Height = 625.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 21
+    object Rectangle1: TRectangle
+      Fill.Bitmap.WrapMode = TileStretch
+      Fill.Kind = Bitmap
+      Position.X = 1.000000000000000000
+      Position.Y = -1.000000000000000000
+      Sides = []
+      Size.Width = 392.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Rectangle2: TRectangle
+      Fill.Color = claDarkcyan
+      Position.Y = 120.000000000000000000
+      Sides = []
+      Size.Width = 393.000000000000000000
+      Size.Height = 513.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Circle1: TCircle
+      Fill.Bitmap.WrapMode = TileStretch
+      Fill.Kind = Bitmap
+      Position.X = 47.000000000000000000
+      Position.Y = 224.000000000000000000
+      Size.Width = 287.000000000000000000
+      Size.Height = 265.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label9: TLabel
+      StyledSettings = [FontColor]
+      Position.X = 111.000000000000000000
+      Position.Y = 597.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'JUST DO GOOD'
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Exp. Base :'
+      TabOrder = 21
+    end
+    object types: TLabel
+      StyledSettings = []
+      Position.X = 153.000000000000000000
+      Position.Y = 576.000000000000000000
+      Size.Width = 89.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claGhostwhite
+      TabOrder = 13
+    end
+    object label8: TLabel
+      StyledSettings = [FontColor]
+      Position.X = 56.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 289.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'JUST DO GOOD'
+      TextSettings.Font.Size = 17.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Digite o nome ou o ID do Pokemon'
+      TabOrder = 2
+    end
+    object Label11: TLabel
+      StyledSettings = [FontColor]
+      Position.X = 111.000000000000000000
+      Position.Y = 574.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'JUST DO GOOD'
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Tipo :'
+      TabOrder = 20
+    end
+    object exp: TLabel
+      StyledSettings = []
+      Position.X = 188.000000000000000000
+      Position.Y = 598.000000000000000000
+      Size.Width = 89.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claGhostwhite
+      TabOrder = 12
+    end
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 584.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 409.000000000000000000
+    Size.Height = 289.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Viewport.Width = 405.000000000000000000
+    Viewport.Height = 285.000000000000000000
+  end
+  object Button1: TButton
+    StyledSettings = [Size, Style, FontColor]
+    Position.X = 82.000000000000000000
+    Position.Y = 160.000000000000000000
+    TabOrder = 7
+    Text = 'PESQUISAR'
+    TextSettings.Font.Family = 'JUST DO GOOD'
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 8
+    Position.X = 176.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object name: TLabel
+    StyledSettings = []
+    Position.X = 166.000000000000000000
+    Position.Y = 531.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Arial'
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claGhostwhite
+    TabOrder = 12
+  end
+  object Label2: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 112.000000000000000000
+    Position.Y = 530.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'JUST DO GOOD'
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Nome :'
+    TabOrder = 16
+  end
+  object Label3: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 112.000000000000000000
+    Position.Y = 507.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'JUST DO GOOD'
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'ID :'
+    TabOrder = 17
+  end
+  object id: TLabel
+    StyledSettings = []
+    Position.X = 139.000000000000000000
+    Position.Y = 509.000000000000000000
+    TextSettings.Font.Family = 'Arial'
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claGhostwhite
+    TabOrder = 18
+  end
+  object Label5: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 112.000000000000000000
+    Position.Y = 552.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'JUST DO GOOD'
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Peso :'
+    TabOrder = 19
+  end
+  object weight: TLabel
+    StyledSettings = []
+    Position.X = 155.000000000000000000
+    Position.Y = 554.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Arial'
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claGhostwhite
+    TabOrder = 20
+  end
+  object BitmapAnimation1: TBitmapAnimation
+    Duration = 0.200000002980232200
+  end
+  object CircleTransitionEffect1: TCircleTransitionEffect
+    Progress = 30.000000000000000000
+    FuzzyAmount = 0.100000001490116100
+    CircleSize = 1.000000000000000000
+  end
+  object Memo2: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 472.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 26
+    Viewport.Width = 77.000000000000000000
+    Viewport.Height = 77.000000000000000000
+  end
+  object Label7: TLabel
+    Position.X = 432.000000000000000000
+    Position.Y = 224.000000000000000000
+    Text = 'Label7'
+    Visible = False
+    TabOrder = 31
+  end
+  object RESTClient1: TRESTClient
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'utf-8, *;q=0.8'
+    BaseURL = 'https://pokeapi.co/api/v2/pokemon'
+    Params = <>
+    Left = 600
+    Top = 304
+  end
+  object RESTRequest1: TRESTRequest
+    AssignedValues = [rvConnectTimeout, rvReadTimeout]
+    Client = RESTClient1
+    Params = <>
+    Response = RESTResponse1
+    Left = 600
+    Top = 400
+  end
+  object RESTResponse1: TRESTResponse
+    ContentType = 'application/json'
+    Left = 600
+    Top = 352
+  end
+end

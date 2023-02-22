@@ -1,0 +1,9 @@
+inherited Form1_iPhone4in: TForm1_iPhone4in
+  ClientHeight = 548
+  ClientWidth = 320
+  DesignerMasterStyle = 2
+  inherited StringGrid1: TStringGrid
+    Viewport.Width = 521.000000000000000000
+    Viewport.Height = 100.000000000000000000
+  end
+end
